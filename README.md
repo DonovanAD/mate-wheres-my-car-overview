@@ -182,12 +182,11 @@ It should not be treated as an actual parking tracker.
 | Area | Tools and role |
 | --- | --- |
 | Python / data | Python, Pandas, NumPy, model preparation and validation |
-| Machine learning | LightGBM classification models, exported to ONNX for inference |
-| Backend | FastAPI, Pydantic, Uvicorn |
+| Machine learning | Scikit-Learn, LightGBM classification models, exported to ONNX for inference |
 | Frontend | React, TypeScript, Vite, Tailwind CSS v4 |
-| Visualisation | Custom timeline and prediction-card interface |
+| Backend | FastAPI, Pydantic, Uvicorn |
 | Observability | Logfire |
-| Deployment | Vercel (frontend); [confirm backend host] |
+| Deployment | Vercel (frontend); FastAPI Cloud (Backend) |
 
 The deployed app separates the user interface from the prediction API. The
 frontend collects trip details, the backend runs the model checks, and the UI
