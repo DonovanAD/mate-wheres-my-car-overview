@@ -186,7 +186,7 @@ It should not be treated as an actual parking tracker.
 | Frontend | React, TypeScript, Vite, Tailwind CSS v4 |
 | Backend | FastAPI, Pydantic, Uvicorn |
 | Observability | Logfire |
-| Deployment | Vercel (frontend); FastAPI Cloud (Backend) |
+| Deployment | Vercel (frontend) - FastAPI Cloud (Backend) |
 
 The deployed app separates the user interface from the prediction API. The
 frontend collects trip details, the backend runs the model checks, and the UI
